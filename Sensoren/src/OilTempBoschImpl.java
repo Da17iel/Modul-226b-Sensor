@@ -1,6 +1,12 @@
 import java.util.Random;
 
 public class OilTempBoschImpl extends TemperaturSensor {
+    public String getUnit() {
+        return "Celsius";
+    }
+    public String getName() {
+        return "OilTempBosch";
+    }
     public double doMeasurement()
     {
         Random r = new Random();

@@ -1,6 +1,12 @@
 import java.util.Random;
 
 public class Thermo2000Impl extends TemperaturSensor {
+    public String getUnit() {
+        return "Celsius";
+    }
+    public String getName() {
+        return "Thermo2000";
+    }
     public double doMeasurement()
     {
         Random r = new Random();
