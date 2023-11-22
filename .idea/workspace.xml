@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b9ae0f73-f41f-4c3f-8157-1be2bdcc5a0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/Aqualung2021ProDivePressureSensorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/Barometric1000PressureSensorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/BlitzerSpeedSensorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/CsvWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/FileEntries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/OilTempBoschImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/PressureSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/SpeedSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/Starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/TemperaturSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sensoren/src/Thermo2000Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/Aqualung2021ProDivePressureSensorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/Aqualung2021ProDivePressureSensorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/Barometric1000PressureSensorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/Barometric1000PressureSensorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/BlitzerSpeedSensorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/BlitzerSpeedSensorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/CsvWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/CsvWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/OilTempBoschImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/OilTempBoschImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sensoren/src/Thermo2000Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sensoren/src/Thermo2000Impl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/danie/OneDrive - TBZ/Modules/M-226 OOP/GitHub/Modul-226b-Sensor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700582117011</updated>
       <workItem from="1700582118444" duration="101000" />
-      <workItem from="1700690602961" duration="255000" />
+      <workItem from="1700690602961" duration="4377000" />
     </task>
     <servers />
   </component>
