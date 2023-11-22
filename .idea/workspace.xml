@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9ae0f73-f41f-4c3f-8157-1be2bdcc5a0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/Aqualung2021ProDivePressureSensorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/Barometric1000PressureSensorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/BlitzerSpeedSensorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/CsvWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/FileEntries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/OilTempBoschImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/PressureSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/SpeedSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/TemperaturSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sensoren/src/Thermo2000Impl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YUZSLk1sr9GwGoJxoCyBT9B3OI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/danie/OneDrive - TBZ/Modules/M-226 OOP/GitHub/Modul-226b-Sensor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9ae0f73-f41f-4c3f-8157-1be2bdcc5a0a" name="Changes" comment="" />
+      <created>1700582117011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700582117011</updated>
+      <workItem from="1700582118444" duration="101000" />
+      <workItem from="1700690602961" duration="255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
