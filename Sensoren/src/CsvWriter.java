@@ -5,9 +5,9 @@ import java.io.IOException;  // Import the IOException class to handle errors
 
 public class CsvWriter extends Thread {
     // Implements threading
-    private String filePath;
-    private int interval;
-    private Sensor sensor;
+    private final String filePath;
+    private final int interval;
+    private final Sensor sensor;
 
     /**
      * Creates a new writer that writes sensor information into logfile
@@ -50,6 +50,10 @@ public class CsvWriter extends Thread {
         }
     }
 
+    /**
+     * Creates a file using the filePath. If file already exists, nothing happens
+     * @param filePath absolute filepath of the file to be created
+     */
     private void CreateFile(String filePath) {
         try {
             File newFile = new File(filePath);
@@ -66,12 +70,18 @@ public class CsvWriter extends Thread {
         }
     }
 
-    private void writeIntoFile(String filePath, String Content) {
+    /**
+     * Writes the given content to a given File. If file is not empty, method appends
+     * the content
+     * @param filePath Absolute target filepath
+     * @param content content of the file
+     */
+    private void writeIntoFile(String filePath, String content) {
         try {
             // Create a BufferedWriter with FileWriter in append mode
             BufferedWriter myWriter = new BufferedWriter(new FileWriter(filePath, true));
 
-            myWriter.write(Content);
+            myWriter.write(content);
             myWriter.newLine();
             myWriter.close();
 
@@ -80,6 +90,13 @@ public class CsvWriter extends Thread {
         }
     }
 
+    /**
+     * Creates a an entry and writes that entry into the file
+     * @param timeStamp Timestamp of the measured object
+     * @param nameOfSensor String name of the sensor
+     * @param unit Units of the measured object
+     * @param measurement Value of the measured object
+     */
     private void writeIntoCSV(long timeStamp, String nameOfSensor, String unit, double measurement) {
         writeIntoFile(filePath,
                 Long.toString(timeStamp) + ";" +
