@@ -58,6 +58,11 @@ public class Starter {
         return availableSensors.get(userInput -1);
     }
 
+    /**
+     * Asks the user what interval he wants to use.
+     * @return the given interval
+     * @throws IntervalTooSmallException if the given input is too small for the interval
+     */
     private static int getUserInterval() throws IntervalTooSmallException {
         // Second Question
         print("Interval in milliseconds: ");
@@ -73,6 +78,11 @@ public class Starter {
         return userInput;
     }
 
+    /**
+     * Asks the User what filesname the logfile should have.
+     * If no name is given, defaultfilename.csv is returned
+     * @return String. User input of FileName
+     */
     private static String getUserFileName() {
         // Third question
         print("Filename of the Logfile: ");
@@ -85,6 +95,10 @@ public class Starter {
         return userInput;
     }
 
+    /**
+     * Helper function to write into the console
+     * @param content The content that should be written into the console 
+     */
     private static void print(String content) {
         System.out.println(content);
     }
