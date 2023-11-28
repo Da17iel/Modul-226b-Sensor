@@ -14,7 +14,7 @@ public class Starter {
 
         Sensor chosenSensor;
         int chosenInterval;
-        String chosenFileName = "C:\\Users\\danie\\Downloads\\";
+        String chosenFileName = System.getProperty("user.home") + "\\Downloads\\";
 
         try
         {
@@ -85,7 +85,7 @@ public class Starter {
      */
     private static String getUserFileName() {
         // Third question
-        print("Filename of the Logfile: ");
+        print("Filename of the Logfile(*.txt|*.csv): ");
 
         String userInput = scanner.nextLine();
 
