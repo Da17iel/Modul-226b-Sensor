@@ -51,6 +51,21 @@ public class CsvWriter extends Thread {
     }
 
     /**
+     * Creates an entry and writes that entry into the file
+     * @param timeStamp Timestamp of the measured object
+     * @param nameOfSensor String name of the sensor
+     * @param unit Units of the measured object
+     * @param measurement Value of the measured object
+     */
+    private void writeIntoCSV(long timeStamp, String nameOfSensor, String unit, double measurement) {
+        writeIntoFile(filePath,
+                Long.toString(timeStamp) + ";" +
+                        nameOfSensor + ";" +
+                        unit + ";" +
+                        Double.toString(measurement));
+    }
+
+    /**
      * Creates a file using the filePath. If file already exists, nothing happens
      * @param filePath absolute filepath of the file to be created
      */
@@ -88,21 +103,6 @@ public class CsvWriter extends Thread {
         } catch (IOException e) {
             System.out.println("An error occurred:" + e.getMessage());
         }
-    }
-
-    /**
-     * Creates a an entry and writes that entry into the file
-     * @param timeStamp Timestamp of the measured object
-     * @param nameOfSensor String name of the sensor
-     * @param unit Units of the measured object
-     * @param measurement Value of the measured object
-     */
-    private void writeIntoCSV(long timeStamp, String nameOfSensor, String unit, double measurement) {
-        writeIntoFile(filePath,
-                Long.toString(timeStamp) + ";" +
-                nameOfSensor + ";" +
-                unit + ";" +
-                Double.toString(measurement));
     }
 
 }
